@@ -74,7 +74,7 @@ global.bucin = [
   "Bagaimana kalau kita berdua jadi komplotan penjahat? Aku curi hatimu dan kamu curi hatiku.",
   "Kamu itu seperti kopi yang aku seruput pagi ini. Pahit, tapi bikin nagih.",
   "Aku sering cemburu sama lipstikmu. Dia bisa nyium kamu tiap hari, dari pagi sampai malam.",
-  "Hanya mendengar namamu saja sudah bisa membuatku tersenyum seperti orang bodoh.",
+  "Hanya mendengar namemu saja sudah bisa membuatku tersenyum seperti orang bodoh.",
   "Aku tau teman wanitamu bukan hanya satu, dan menyukaimu pun bukan hanya aku.",
   "Semenjak aku berhenti berharap pada dirimu, aku jadi tidak semangat dalam segala hal..",
   "Denganmu, jatuh cinta adalah patah hati paling sengaja.",

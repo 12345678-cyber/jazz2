@@ -4,12 +4,12 @@ let handler = async function (m, { text, usedPrefix }) {
   let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
   let user = global.db.data.users[m.sender]
   if (user.registered === true) throw `Anda sudah terdaftar\n\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
-  if (!Reg.test(text)) throw `Format salah\n\n*${usedPrefix}daftar nama|umur*`
+  if (!Reg.test(text)) throw `Format salah\n\n*${usedPrefix}daftar name|age*`
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
-  if (age > 40) throw 'Maaf umur Anda terlalu tua'
+  if (age > 40) throw 'Maaf age Anda terlalu tua'
   if (age < 18) throw 'Maaf Anda belum bisa mendaftar'
   user.name = name.trim()
   user.age = age
@@ -45,7 +45,7 @@ await conn.fakeReply(m.chat, caption,/* {
 global.db.data.users[m.sender].uang += 10000
 global.db.data.users[m.sender].koin += 5000
 }
-//handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
+//handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <name>.<age>')
 //handler.tags = ['exp']
 
 handler.command = /^(daftar|reg(ister)?)$/i

@@ -1,33 +1,33 @@
 let handler = async (m, { usedPrefix, command }) => {
     let which = command.replace(/(daftar|list)/i, '')
     let msgs = global.db.data.msgs
-    let split = Object.entries(msgs).map(([nama, isi]) => { return { nama, ...isi } })
+    let split = Object.entries(msgs).map(([name, isi]) => { return { name, ...isi } })
     let fltr
     if (/audio/i.test(command)) fltr = split
         .filter(v => v.message.audioMessage)
         .filter(m => m.message.audioMessage.ptt == false)
-        .map(v => '- ' + v.nama).join('\n')
+        .map(v => '- ' + v.name).join('\n')
     if (/vn/i.test(command)) fltr = split
         .filter(v => v.message.audioMessage)
         .filter(m => m.message.audioMessage.ptt == true)
-        .map(v => '- ' + v.nama).join('\n')
+        .map(v => '- ' + v.name).join('\n')
     if (/video/i.test(command)) fltr = split
         .filter(v => v.message.videoMessage && !v.message.videoMessage.gifPlayback)
-        .map(v => '- ' + v.nama).join('\n')
+        .map(v => '- ' + v.name).join('\n')
     if (/gif/i.test(command)) fltr = split
         .filter(v => v.message.videoMessage)
         .filter(m => m.message.videoMessage.gifPlayback)
-        .map(v => '- ' + v.nama).join('\n')
-    if (/stic?ker/i.test(command)) fltr = split.filter(v => v.message.stickerMessage).map(v => '- ' + v.nama).join('\n')
-    if (/msg/i.test(command)) fltr = split.filter(v => v.message.conversation).map(v => '- ' + v.nama).join('\n')
-    if (/img/i.test(command)) fltr = split.filter(v => v.message.imageMessage).map(v => '- ' + v.nama).join('\n')
+        .map(v => '- ' + v.name).join('\n')
+    if (/stic?ker/i.test(command)) fltr = split.filter(v => v.message.stickerMessage).map(v => '- ' + v.name).join('\n')
+    if (/msg/i.test(command)) fltr = split.filter(v => v.message.conversation).map(v => '- ' + v.name).join('\n')
+    if (/img/i.test(command)) fltr = split.filter(v => v.message.imageMessage).map(v => '- ' + v.name).join('\n')
     m.reply(`
 *LIST PESAN*
 
 ${fltr}
 
 Akses/ambil dengan mengetik:
-*${usedPrefix}get${which}* <nama>
+*${usedPrefix}get${which}* <name>
 atau langsung ketik teksnya
 `.trim())
 }

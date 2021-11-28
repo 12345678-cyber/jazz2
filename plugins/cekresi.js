@@ -2,7 +2,7 @@ let fetch = require("node-fetch")
 
 let handler = async (m, { conn, text}) => {
   let [text1,text2] = text.split('|')
-  if (!text1) throw 'Masukkan nama jasa pengiriman!'
+  if (!text1) throw 'Masukkan name jasa pengiriman!'
   if (!text2) throw 'Masukkan resi pengiriman!'
   await m.reply(global.wait)
   let res = await fetch(`https://docs-jojo.herokuapp.com/api/cek-resi?kurir=${text1}&resi=${text2}`)

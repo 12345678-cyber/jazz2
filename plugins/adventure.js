@@ -65,7 +65,7 @@ Nyawa mu berkurang -${healt * 1} durability berukurang -${durability * 1} karena
             global.db.data.users[m.sender].sampah += sampah * 1
             global.db.data.users[m.sender].lastadventure = new Date * 1
             } else conn.reply(m.chat, `Anda sudah berpetualang dan kelelahan, silahkan coba *${timers}* lagi`, m)
-          } else conn.reply(m.chat, 'Minimal 80 health untuk bisa berpetualang, racik potion dulu dengan cara ketik *' + usedPrefix + 'racik <tanaman herbal>|<jumlah>*\ndan ketik *' + usedPrefix + 'use potion <jumlah>*', m)
+          } else conn.reply(m.chat, 'Minimal 80 health untuk bisa berpetualang, racik potion dulu dengan cara ketik *' + usedPrefix + 'racik <tanamen herbal>|<jumlah>*\ndan ketik *' + usedPrefix + 'use potion <jumlah>*', m)
         } else conn.reply(m.chat, 'Dibutuhkan 20 durability untuk bisa berpetualang lagi', m)
       if (global.db.data.users[m.sender].healt < 0) {   // Jika healt user kurang dari 0, maka level dan exp akan di kurangi sebagaimana mestinya  :v
         	let exp = `${Math.floor(Math.random() * 1000)}`.trim()

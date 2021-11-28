@@ -13,7 +13,7 @@ let charaingfo = `💬 *Name:* ${name}
 
   conn.sendFile(m.chat, image_url, '', charaingfo, m)
 }
-//handler.help = ['character <nama>']
+//handler.help = ['character <name>']
 //handler.tags = ['internet']
 handler.command = /^(chara|character)$/i
 handler.limit = true

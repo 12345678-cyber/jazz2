@@ -7,18 +7,18 @@ let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let mdgrleaf = global.db.data.users[m.sender].mdgrleaf
   let hpktplant = global.db.data.users[m.sender].hpktplant
   let bruh = `
-Tanaman Herbal yang bisa di racik
+Tanamen Herbal yang bisa di racik
 
 🌿 *sprtgrass*
 🍂 *mdgrleaf*
 🌱 *hpktplant*
 
 
-*[ Stok Tanaman Herbal Kamu ]*
+*[ Stok Tanamen Herbal Kamu ]*
 
-🌿 sprtgrass  ${sprtgrass} tanaman
-🍂 mdgrleaf  ${mdgrleaf} tanaman
-🌱 hpktplant  ${hpktplant} tanaman
+🌿 sprtgrass  ${sprtgrass} tanamen
+🍂 mdgrleaf  ${mdgrleaf} tanamen
+🌱 hpktplant  ${hpktplant} tanamen
 
 
 contoh:
@@ -34,7 +34,7 @@ try {
                             global.db.data.users[m.sender].sprtgrass -= count * 1
                             global.db.data.users[m.sender].spotion += count * 1
                             conn.reply(m.chat, `${count} Spirit Grass diracik menjadi ${count} Small Potion`, m)
-                       } else conn.reply(m.chat, `Tanaman herbal kamu tidak cukup`, m)
+                       } else conn.reply(m.chat, `Tanamen herbal kamu tidak cukup`, m)
 break
 
                   case 'mdgrleaf':
@@ -43,7 +43,7 @@ break
                             global.db.data.users[m.sender].mdgrleaf -= count * 1
                             global.db.data.users[m.sender].spotion += count * 1
                             conn.reply(m.chat, `${count} Mandragora Leaf diracik menjadi ${count} Small Potion`, m)
-                       } else conn.reply(m.chat, `Tanaman herbal kamu tidak cukup`, m)
+                       } else conn.reply(m.chat, `Tanamen herbal kamu tidak cukup`, m)
 break
                    case 'hpktplant':
             if (global.db.data.users[m.sender].hpktplant >= count * 1) {
@@ -51,7 +51,7 @@ break
                             global.db.data.users[m.sender].hpktplant -= count * 1
                             global.db.data.users[m.sender].spotion += count * 1
                             conn.reply(m.chat, `${count} Hipokute Plant diracik menjadi ${count} Small Potion`, m)
-                       } else m.reply('Tanaman herbal kamu tidak cukup')
+                       } else m.reply('Tanamen herbal kamu tidak cukup')
             break
         default:
             return conn.reply(m.chat, bruh, m)

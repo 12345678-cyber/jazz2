@@ -52,7 +52,7 @@
       "makananpet": 0,
       "uang": 0,
       "koin": 0,
-      "exp": 28,
+      "exp": 210,
       "limit": 10,
       "warn": 0,
       "lastmining": 0,
@@ -73,7 +73,7 @@
       "afk": -1,
       "afkReason": "",
       "banned": false,
-      "level": 0,
+      "level": 1,
       "role": "Warrior V",
       "autolevelup": true,
       "anjing": 0,
@@ -94,14 +94,59 @@
       "antiLink": true,
       "viewonce": true,
       "expired": 0
+    },
+    "919006583673-1619448541@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": true,
+      "viewonce": true,
+      "expired": 0
+    },
+    "19294372555@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": true,
+      "viewonce": true,
+      "expired": 0
+    },
+    "120363022410681729@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": false,
+      "antiLink": true,
+      "viewonce": true,
+      "expired": 0
     }
   },
   "stats": {
     "menu.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1638083637554,
-      "lastSuccess": 1638083637554
+      "total": 4,
+      "success": 4,
+      "last": 1638084910424,
+      "lastSuccess": 1638084910424
+    },
+    "exec2.js": {
+      "total": 8,
+      "success": 8,
+      "last": 1638085466140,
+      "lastSuccess": 1638085466140
     }
   },
   "msgs": {},

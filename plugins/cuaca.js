@@ -16,7 +16,7 @@ let handler = async(m, { conn, text }) => {
             })
     })
 }
-//handler.help = ['infocuaca <nama kota>']
+//handler.help = ['infocuaca <name kota>']
 //handler.tags = ['internet']
 handler.command = /^((info)?cuaca)$/i
 handler.owner = false

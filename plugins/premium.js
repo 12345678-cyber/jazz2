@@ -18,13 +18,13 @@ Invite bot ke grup :
  • Donasi 60.000 = VIP PERMANEN
 
 Apa saja keuntungan premium?
- • Bisa Akses semua fitur
+ • Bisa Akses semua bar
  • Limit UNLIMITED (Tidak Terbatas)
  • Dapat menambahkan bot ke grup Anda
  • Bisa jadi bot di nomor Anda.
  • Bonus saldo bot 500.000 untuk donasi 5.000 dst.
 
-Ayo gabung bersama mereka yang sudah donasi dan mendapatkan banyak keuntungan dengan akses semua fitur bot.
+Ayo gabung bersama mereka yang sudah donasi dan mendapatkan banyak keuntungan dengan akses semua bar bot.
 `.trim()
   conn.fakeReply(m.chat, teks, '0@s.whatsapp.net', `Keuntungan Menjadi Member Premium`, 'status@broadcast')
   

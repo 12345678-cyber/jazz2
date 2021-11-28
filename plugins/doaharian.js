@@ -27,7 +27,7 @@ global.doaharian = {
         "title": "Doa Sebelum Makan",
         "arabic": "Dari ‘Umar bin Abi Salamah, ia berkata, “Waktu aku masih kecil dan berada di bawah asuhan Rasulullah shallallahu ‘alaihi wa sallam, tanganku bersileweran di nampan saat makan. Maka Rasulullah shallallahu ‘alaihi wa sallam bersabda,\n« يَا غُلاَمُ سَمِّ اللَّهَ ، وَكُلْ بِيَمِينِكَ وَكُلْ مِمَّا يَلِيكَ » . فَمَا زَالَتْ تِلْكَ طِعْمَتِى بَعْدُ",
         "latin": "",
-        "translation": "Wahai Ghulam, sebutlah nama Allah (bacalah “BISMILLAH”), makanlah dengan tangan kananmu dan makanlah makanan yang ada di hadapanmu.” Maka seperti itulah gaya makanku setelah itu. (HR. Bukhari no. 5376 dan Muslim no. 2022)\"_\n_\"(Dengan Mengucap Bismillah saja sudah cukup)"
+        "translation": "Wahai Ghulam, sebutlah name Allah (bacalah “BISMILLAH”), makanlah dengan tangan kananmu dan makanlah makanan yang ada di hadapanmu.” Maka seperti itulah gaya makanku setelah itu. (HR. Bukhari no. 5376 dan Muslim no. 2022)\"_\n_\"(Dengan Mengucap Bismillah saja sudah cukup)"
       },
       {
         "title": "Doa Sesudah Makan",
@@ -45,13 +45,13 @@ global.doaharian = {
         "title": "Doa Ketika Makan Lupa Membaca Doa",
         "arabic": "بِسْمِ اللهِ فِىِ أَوَّلِهِ وَآخِرِهِ",
         "latin": "Bismillaahi fii awwalihi wa aakhirihi",
-        "translation": "Dengan menyebut nama Allah pada awal dan akhirnya"
+        "translation": "Dengan menyebut name Allah pada awal dan akhirnya"
       },
       {
         "title": "Doa Sebelum Tidur",
         "arabic": "بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ",
         "latin": "Bismikallohumma ahya wa amuutu",
-        "translation": "Dengan menyebut nama-Mu ya Allah, aku hidup dan aku mati"
+        "translation": "Dengan menyebut name-Mu ya Allah, aku hidup dan aku mati"
       },
       {
         "title": "Doa Ketika Mimpi Buruk",
@@ -117,19 +117,19 @@ global.doaharian = {
         "title": "Doa Masuk Rumah",
         "arabic": "اَللّٰهُمَّ اِنّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرَالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبّنَا تَوَكَّلْنَا",
         "latin": "Allahumma innii as-aluka khoirol mauliji wa khoirol makhroji bismillaahi wa lajnaa wa bismillaahi khorojnaa wa'alallohi robbina tawakkalnaa",
-        "translation": "Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk, dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakkal"
+        "translation": "Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut name Allah kami masuk, dan dengan menyebut name Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakkal"
       },
       {
         "title": "Doa Keluar Rumah / Doa Bepergian",
         "arabic": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
         "latin": "Bismillaahi tawakkaltu 'alalloohi laa hawlaa walaa quwwata illaa bilaahi",
-        "translation": "Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan pertologan Allah"
+        "translation": "Dengan menyebut name Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan pertologan Allah"
       },
       {
         "title": "Doa Memakai Pakaian",
         "arabic": "بِسْمِ اللهِ اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَاهُوَ لَهُ وَاَعُوْذُبِكَ مِنْ شَرِّهِ وَشَرِّمَا هُوَلَهُ",
         "latin": "Bismillaahi, Alloohumma innii as-aluka min khoirihi wa khoiri maa huwa lahuu wa'a'uu dzubika min syarrihi wa syarri maa huwa lahuu",
-        "translation": "Dengan nama-Mu yaa Allah akku minta kepada Engkau kebaikan pakaian ini dan kebaikan apa yang ada padanya, dan aku berlindung kepada Engkau dari kejahatan pakaian ini dan kejahatan yang ada padanya"
+        "translation": "Dengan name-Mu yaa Allah akku minta kepada Engkau kebaikan pakaian ini dan kebaikan apa yang ada padanya, dan aku berlindung kepada Engkau dari kejahatan pakaian ini dan kejahatan yang ada padanya"
       },
       {
         "title": "Doa Memakai Pakaian Baru",
@@ -141,7 +141,7 @@ global.doaharian = {
         "title": "Doa Melepas Pakaian",
         "arabic": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
         "latin": "Bismillaahil ladzii laa ilaaha illaa huwa",
-        "translation": "Dengan nama Allah yang tiada Tuhan selain-Nya"
+        "translation": "Dengan name Allah yang tiada Tuhan selain-Nya"
       },
       {
         "title": "Doa Memohon Ilmu Yang Bermanfaat",
@@ -177,7 +177,7 @@ global.doaharian = {
         "title": "Doa Naik Kapal",
         "arabic": "بِسْمِ اللهِ مَجْرَهَا وَمُرْسَهَآاِنَّ رَبِّىْ لَغَفُوْرٌرَّحِيْمٌ",
         "latin": "Bismillaahi majrahaa wa mursaahaa inna robbii laghofuurur rohiim",
-        "translation": "Dengan nama Allah yang menjalankan kendaraan ini berlayar dan berlabuh, sesungguhnya Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang"
+        "translation": "Dengan name Allah yang menjalankan kendaraan ini berlayar dan berlabuh, sesungguhnya Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang"
       },
       {
         "title": "Doa Ketika Sampai di Tempat Tujuan",

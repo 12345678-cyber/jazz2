@@ -7,7 +7,7 @@ let handler  = async (m, { conn, text }) => {
 
 let { exp, limit, level, role } = global.db.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
-let nama = conn.getName(m.sender)
+let name = conn.getName(m.sender)
 try {
   } catch (e) {
 
@@ -15,7 +15,7 @@ try {
 await m.reply(global.wait)
 let res = global.API('http://hardianto-chan.herokuapp.com', '/api/rankcard', {
     profile: await conn.getProfilePicture(m.sender).catch(_ => 'https://telegra.ph/file/5e1ba0925c548bcc9a8d2.jpg'),
-    name: nama,
+    name: name,
     bg: 'https://telegra.ph/file/debfea980ae47bed361fb.jpg',
     needxp: max,
     curxp: exp,
@@ -25,7 +25,7 @@ let res = global.API('http://hardianto-chan.herokuapp.com', '/api/rankcard', {
 let caption = `
 👾 Your Profile:
 
-👤 Name: ${nama}
+👤 Name: ${name}
 🔰 Rank: ${role}
 ⚜️ Level: ${level}
 🔗 Exp : ${exp} --> ${max}

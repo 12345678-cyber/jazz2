@@ -26,8 +26,8 @@ let teks = `
 ┃ ❖ _${usedPrefix}rank_
 ┃ ❖ _${usedPrefix}rankcard_
 ┃ ❖ _${usedPrefix}ceksn_
-┃ ❖ _${usedPrefix}daftar_  [ nama|umur ]
-┃ ❖ _${usedPrefix}register_  [ nama|umur ]
+┃ ❖ _${usedPrefix}daftar_  [ name|age ]
+┃ ❖ _${usedPrefix}register_  [ name|age ]
 ┃ ❖ _${usedPrefix}tf_  [ uang @user ] Ⓛ
 ┃ ❖ _${usedPrefix}transfer_  [ uang @user ] Ⓛ
 ┃ ❖ _${usedPrefix}unreg_  [ SN|Serial number ]

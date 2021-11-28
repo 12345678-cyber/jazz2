@@ -48,7 +48,7 @@ Peluru mu berkurang *-${magazine * 1}* karena berburu dan Stamina mu juga berkur
             global.db.data.users[m.sender].lastberburu = new Date * 1
             } else conn.reply(m.chat, `Anda sudah berburu untuk kelangsungan hidup dan kelelahan, silahkan coba *${timer}* lagi`, m)
         } else conn.reply(m.chat, 'Minimal 80 stamina untuk bisa berburu, Makan hasil buruan mu untuk menambah stamina', m)
-       } else conn.reply(m.chat, 'Dibutuhkan 12 magazine untuk berburu lagi, Silahkan reload magazine mu dengan peluru', m)
+       } else conn.reply(m.chat, 'Dibutuhkan 12 magazine untuk berburu lagi, agereload magazine mu dengan peluru', m)
      } catch (e) {
         console.log(e)
         conn.reply(m.chat, 'Error', m)

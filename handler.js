@@ -199,10 +199,10 @@ module.exports = {
         if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
         if (chat) {
           if (!('isBanned' in chat)) chat.isBanned = false
-          if (!('welcome' in chat)) chat.welcome = false
+          if (!('welcome' in chat)) chat.welcome = true
           if (!('detect' in chat)) chat.detect = false
           if (!('sWelcome' in chat)) chat.sWelcome = ''
-          if (!('sBye' in chat)) chat.sBye = ''
+          if (!('sBye' in chat)) chat.sBye = 'hi'
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('delete' in chat)) chat.delete = false
@@ -356,7 +356,7 @@ module.exports = {
             fail('private', m, this)
             continue
           }
-          if (plugin.register == false && _user.registered == false) { // Butuh daftar?
+          if (plugin.register == false && _user.registered == true) { // Butuh daftar?
             fail('unreg', m, this)
             continue
           }
@@ -506,7 +506,7 @@ module.exports = {
     await this.reply(m.key.remoteJid, `
 Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
 
-Untuk mematikan fitur ini, ketik
+Untuk mematikan bar ini, ketik
 *.enable delete*
 `.trim(), m.message, {
       contextInfo: {
@@ -541,7 +541,7 @@ global.dfail = (type, m, conn) => {
     private: '_Perintah ini hanya dapat digunakan di Chat Pribadi_',
     admin: '_Perintah ini hanya untuk *Admin* grup_',
     botAdmin: '_Jadikan bot sebagai *Admin* untuk menggunakan perintah ini_',
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama|umur*\n\nContoh: *#daftar 百鬼あやめ.19*`
+    unreg: `please register youself :\n\n*#daftar yourname|age*\n\nContoh: *#daftar rishabh.19*`
   }[type]
   if (msg) return m.reply(msg)
 }

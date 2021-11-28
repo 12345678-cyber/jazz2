@@ -5,7 +5,7 @@ const uploadImage = require('../lib/uploadImage')
 let { webp2png } = require('../lib/webp2mp4')
 let handler = async (m, { conn, text }) => {
 await m.reply(global.wait)
-  let namalu = await conn.getName(m.sender)
+  let namelu = await conn.getName(m.sender)
   let stiker = false
   try {
     let q = m.quoted ? m.quoted : m
@@ -14,18 +14,18 @@ await m.reply(global.wait)
       let img = await q.download()
       let out = await webp2png(img)
       if (!img) throw `balas stiker dengan perintah ${usedPrefix + command}`
-      stiker = await sticker(0, out, 'MySticker', namalu)
+      stiker = await sticker(0, out, 'MySticker', namelu)
     } else if (/image/.test(mime)) {
       let img = await q.download()
       let link = await uploadImage(img)
       if (!img) throw `balas gambar dengan perintah ${usedPrefix + command}`
-      stiker = await sticker(0, link, 'MySticker', namalu)
+      stiker = await sticker(0, link, 'MySticker', namelu)
     } else if (/video/.test(mime)) {
       if ((q.msg || q).seconds > 11) throw 'Maksimal 10 detik!'
       let img = await q.download()
       let link = await uploadFile(img)
       if (!img) throw `balas video dengan perintah ${usedPrefix + command}`
-      stiker = await sticker(0, link, 'MySticker', namalu)
+      stiker = await sticker(0, link, 'MySticker', namelu)
     }
   } finally {
     if (stiker) await conn.sendMessage(m.chat, stiker, MessageType.sticker, {

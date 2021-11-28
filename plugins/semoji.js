@@ -12,7 +12,7 @@ let handler = async (m, { usedPrefix, conn, args, text }) => {
     tipe = defaultType
   }
   if (!emoji) throw `
-Silahkan masukan emojinya
+agemasukan emojinya
 
 Misal ${usedPrefix}semoji whatsapp 😎
 

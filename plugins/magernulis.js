@@ -6,7 +6,7 @@ let handler  = async (m, { command, conn, text }) => {
   await m.reply(global.wait)
   await conn.sendFile(m.chat, global.API('xteam', '/magernulis' + id, {
     text,
-    nama: conn.getName(m.sender),
+    name: conn.getName(m.sender),
     kelas: ' '
   }, 'APIKEY'), 'nulis.jpg', 'Nahhh sudah jadi...', m)
 }

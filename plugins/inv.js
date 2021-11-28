@@ -117,7 +117,7 @@ Kelinci Bakar: *${kelincibakar}*
 Bison Bakar: *${bisonbakar}*
 
 
-*「 Tanaman Herbal 」*\n
+*「 Tanamen Herbal 」*\n
 Spirit Grass: *${sprtgrass}*
 Mandragora Leaf: *${mdgrleaf}*
 Hipokute Plant: *${hpktplant}*

@@ -56,7 +56,7 @@ let teks = `
 ││ • *.gasdungeon*
 ││ • *.dungeon*
 ││    Untuk menangkap monster dan
-││    mencari tanaman herbal.., dibutuhkan
+││    mencari tanamen herbal.., dibutuhkan
 ││    minimal 90 nyawa untuk bisa 
 ││    melakukannya dan, kamu tidak 
 ││    dapat spam karena ada delay 5 menit

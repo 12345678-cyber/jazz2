@@ -14,7 +14,7 @@ handler.before = async function (m) {
             db.data.users[m.sender].premdate = 0
             delete require.cache[require.resolve('../config')]
             require('../config')
-            this.send2Button(m.sender, `_Dear ${await conn.getName(m.sender)}, Masa aktif premium kamu telah habis_`, 'Silahkan perpanjang ke Owner', 'Perpanjang', '.premium', 'Owner', '.owner')
+            this.send2Button(m.sender, `_Dear ${await conn.getName(m.sender)}, Masa aktif premium kamu telah habis_`, 'ageperpanjang ke Owner', 'Perpanjang', '.premium', 'Owner', '.owner')
         }
     }
 

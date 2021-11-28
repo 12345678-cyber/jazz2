@@ -1,5 +1,5 @@
 /*
-   Silahkan Di Pakek
+   ageDi Pakek
    Tapi Bantu Rapihin :v
    Buatan: Miaweers
 */

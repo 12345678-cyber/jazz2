@@ -8,7 +8,7 @@ let teks = `
 ┃ ❖ _${usedPrefix}chord_ <judul lagu> Ⓛ
 ┃ ❖ _${usedPrefix}cekresi_ <jasa|resi> Ⓛ
 ┃ ❖ _${usedPrefix}covid_ <negara>
-┃ ❖ _${usedPrefix}cuaca_ <nama kota> Ⓛ
+┃ ❖ _${usedPrefix}cuaca_ <name kota> Ⓛ
 ┃ ❖ _${usedPrefix}darkjoke_
 ┃ ❖ _${usedPrefix}fetch_ <url> Ⓛ
 ┃ ❖ _${usedPrefix}get_ <url> Ⓛ
@@ -16,7 +16,7 @@ let teks = `
 ┃ ❖ _${usedPrefix}githubsearch_ <pencarian> Ⓛ
 ┃ ❖ _${usedPrefix}githubdl_  Ⓛ
 ┃ ❖ _${usedPrefix}infogempa_
-┃ ❖ _${usedPrefix}jodoh_ <nama>|<nama doi> Ⓛ
+┃ ❖ _${usedPrefix}jodoh_ <name>|<name doi> Ⓛ
 ┃ ❖ _${usedPrefix}katabijak_ <opsi> Ⓛ
 ┃ ❖ _${usedPrefix}kbbi_ <teks> Ⓛ
 ┃ ❖ _${usedPrefix}kodepos_ <kota> Ⓛ

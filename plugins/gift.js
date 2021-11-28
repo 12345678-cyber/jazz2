@@ -14,7 +14,7 @@ let json = parse[random]
     global.db.data.users[m.sender].exp += 500
     m.reply(`Selamat anda mendapatkan +Rp${json.uang}`)
     global.db.data.users[m.sender].lastgift = new Date * 1
-  } else m.reply(`Silahkan Menunggu *${cd1}* Menit *${cd2}* Detik Lagi!`)
+  } else m.reply(`ageMenunggu *${cd1}* Menit *${cd2}* Detik Lagi!`)
 }
 handler.command = /^gift$/i
 handler.owner = false

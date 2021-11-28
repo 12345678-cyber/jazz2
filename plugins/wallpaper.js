@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
         })
     } catch (e) {
         console.log(e)
-        throw '_*Owner belum membayar tagihan fitur ini*_'
+        throw '_*Owner belum membayar tagihan bar ini*_'
     }
 }
 //handler.help = ['wallpaper','wp']
